@@ -1,4 +1,7 @@
-# nbdev template
+# fastai2_tabular_hybrid
+> Hybrid approaches to supporting more datatypes with fastai2 tabular
 
-Use this template to more easily create your nbdev project.
 
+# Contributers:
+
+* Zachary Mueller
