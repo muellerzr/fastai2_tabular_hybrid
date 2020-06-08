@@ -53,13 +53,7 @@ def get_idxs(x:TensorDataLoader):
 
 # Cell
 class TensorDataLoaders(DataLoaders):
-    """Transfers TabularPandas to TensorDataLoader for up to 20X speedup compared to TabularPandas DataLoader.
-
-    Set device='cuda' for best performance. Will load entire dataset into GPU memory.
-
-    Set dataset_device='cpu' if the dataset is too large for GPU memory.
-    """
-
+    "A set of two `TensorDataLoader` from a `TabularPandas` object"
     def __init__(self, to:TabularPandas, bs=64, val_bs=None, shuffle_train=True,
                  device='cpu', dataset_device=None, **kwargs):
         dataset_device = device if dataset_device is None else dataset_device
