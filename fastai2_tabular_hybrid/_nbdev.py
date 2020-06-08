@@ -6,9 +6,15 @@ index = {"NumpyDataset": "00_Numpy.ipynb",
          "NumpyDataLoader": "00_Numpy.ipynb",
          "NumpyDataLoader.shuffle_fn": "00_Numpy.ipynb",
          "NumpyDataLoader.get_idxs": "00_Numpy.ipynb",
-         "NumpyDataLoaders": "00_Numpy.ipynb"}
+         "NumpyDataLoaders": "00_Numpy.ipynb",
+         "TensorDataset": "01_Tensor.ipynb",
+         "TensorDataLoader": "01_Tensor.ipynb",
+         "TensorDataLoader.shuffle_fn": "01_Tensor.ipynb",
+         "TensorDataLoader.get_idxs": "01_Tensor.ipynb",
+         "TensorDataLoaders": "01_Tensor.ipynb"}
 
-modules = ["numpy.py"]
+modules = ["numpy.py",
+           "tensor.py"]
 
 doc_url = "https://muellerzr.github.io/fastai2_tabular_hybrid/"
 

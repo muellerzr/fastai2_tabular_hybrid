@@ -1,10 +1,15 @@
 # fastai2_tabular_hybrid
 > Hybrid approaches to supporting more datatypes with fastai2 tabular
 
+# DataLoaders:
+
+* **NumpyDataloader**: uses NumPy as the backend to speed up performance up to ~8X fast.ai’s TabularPandas DataLoader.
+* **TensorDataloader**: uses PyTorch Tensor as the backend to speed up performance up to ~20X fast.ai’s TabularPandas DataLoader if entire Dataset can fit into GPU memory.
 
 # Contributers:
 
 * Zachary Mueller
+* Benjamin Warner
 
 # Directions for Contributing:
 
